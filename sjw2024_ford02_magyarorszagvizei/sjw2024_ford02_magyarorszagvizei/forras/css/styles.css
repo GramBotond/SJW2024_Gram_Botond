@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap');
+
 :root {
     --feher: #ffffff;
     --vilagoskek: #1283b9;
@@ -16,7 +18,32 @@ header {
     align-items: center;
 }
 
+header > h1 {
+    color: var(--feher);
+    font-family: "Marhey", sans-serif;
+    font-size: 3em;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 10px black;
+}
 
 a:hover{
     background-color: rgb(255,255,255, 0.2);
+}
+
+@media screen and (max-width: 992px) {
+    header > h1 {
+      font-size: 1.5em;
+    }
+}
+
+h2 {
+    text-decoration: underline wavy;
+    font-variant: small-caps;
+    font-family: "Marhey", sans-serif;
+    color: var(--vilagoskek);
+}
+
+img {
+    box-shadow: 1px 1px 3px var(--sotetkek);
 }
