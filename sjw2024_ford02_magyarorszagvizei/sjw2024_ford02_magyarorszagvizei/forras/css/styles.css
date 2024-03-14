@@ -47,3 +47,39 @@ h2 {
 img {
     box-shadow: 1px 1px 3px var(--sotetkek);
 }
+
+table {
+    width: 80%;
+    box-shadow: 1px 1px 10px var(--sotetkek);
+}
+
+th {
+    text-align: center;
+    font-family: "Marhey", sans-serif;
+    background-color: var(--sotetkek);
+    color: var(--feher);
+}
+
+td {
+    background-color: rgb(18, 131, 185, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid var(--sotetkek);
+}
+
+td:hover
+{
+    background-color: rgb(18, 131, 185, 0.3)
+}
+
+td:nth-child(odd) {
+    font-variant: small-caps;
+    font-weight: bold;
+    width: 25%;
+}
+
+tr:first-child > th{
+    background-color: var(--vilagoskek);
+}
